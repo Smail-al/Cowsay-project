@@ -3,4 +3,4 @@ const information = {
     campus : 'Wild Code School'
 };
 
-module.exports = information
+module.exports = information;

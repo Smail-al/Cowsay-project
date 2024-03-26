@@ -1,8 +1,10 @@
 const information = require('./information');
-const  cowsay  =  require ( "cowsay" ) ;
+console.log(`Hi, my name is ${information.name} and I'm a ${information.campus} student`);
 
-console . log ( cowsay . say ( { 
-    text : "Hi, my name is Smail and I'm a Wild Code School student" , 
+
+const cowsay = require ("cowsay");
+console.log (cowsay.say( { 
+    text : "Nice to meet you !", 
     e : "oO" , 
     T : "U " 
 } ) ) ;
